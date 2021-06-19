@@ -6,7 +6,7 @@ var wallpaperImg6, wallpaperImg7, wallpaperImg8, wallpaperImg9, wallpaperImg10;
 var next, nextImg;
 
 function preload(){
-  backgroundImage = loadImage("images/bgImg.jpg");
+  backgroundImage = loadImage("bgImg.jpg");
 
   wallpaperImg1 = loadImage("wallpaper1.jpg");
   wallpaperImg2 = loadImage("wallpaper2.jpg");
@@ -19,7 +19,7 @@ function preload(){
   wallpaperImg9 = loadImage("wallpaper9.jpg");
   wallpaperImg10 = loadImage("wallpaper10.jpg");
 
-  nextImg = loadImage("images/next.png");
+  nextImg = loadImage("next.png");
 }
 
 function setup(){
