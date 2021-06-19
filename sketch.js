@@ -8,16 +8,16 @@ var next, nextImg;
 function preload(){
   backgroundImage = loadImage("images/bgImg.jpg");
 
-  wallpaperImg1 = loadImage("images/wallpaper1.jpg");
-  wallpaperImg2 = loadImage("images/wallpaper2.jpg");
-  wallpaperImg3 = loadImage("images/wallpaper3.jpg");
-  wallpaperImg4 = loadImage("images/wallpaper4.jpg");
-  wallpaperImg5 = loadImage("images/wallpaper5.jpg");
-  wallpaperImg6 = loadImage("images/wallpaper6.jpg");
-  wallpaperImg7 = loadImage("images/wallpaper7.jpg");
-  wallpaperImg8 = loadImage("images/wallpaper8.jpg");
-  wallpaperImg9 = loadImage("images/wallpaper9.jpg");
-  wallpaperImg10 = loadImage("images/wallpaper10.jpg");
+  wallpaperImg1 = loadImage("wallpaper1.jpg");
+  wallpaperImg2 = loadImage("wallpaper2.jpg");
+  wallpaperImg3 = loadImage("wallpaper3.jpg");
+  wallpaperImg4 = loadImage("wallpaper4.jpg");
+  wallpaperImg5 = loadImage("wallpaper5.jpg");
+  wallpaperImg6 = loadImage("wallpaper6.jpg");
+  wallpaperImg7 = loadImage("wallpaper7.jpg");
+  wallpaperImg8 = loadImage("wallpaper8.jpg");
+  wallpaperImg9 = loadImage("wallpaper9.jpg");
+  wallpaperImg10 = loadImage("wallpaper10.jpg");
 
   nextImg = loadImage("images/next.png");
 }
