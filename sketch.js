@@ -23,11 +23,11 @@ function preload(){
 }
 
 function setup(){
-  canvas = createCanvas(500, 600);
+  canvas = createCanvas(1000, 1500);
 
-  wallpaper = createSprite(250, 300);
+  wallpaper = createSprite(450, 500);
   wallpaper.addImage(wallpaperImg3);
-  wallpaper.scale = 2.4;
+  wallpaper.scale = 3.4;
   
   next = createSprite(425, 550);
   next.addImage(nextImg);
@@ -42,17 +42,17 @@ function draw(){
   textFont("seoge script");
   fill("green");
   stroke("green");
-  text("Wallpaper App", 175, 30);
+  text("Wallpaper App", 450, 30);
 
   textSize(15);
   fill("yellow");
-  text("Take a Screenshot, if you like and then you can put it in wallpaper", 20, 50);
+  text("Take a Screenshot, if you like and then you can put it in wallpaper", 300, 75);
 
   stroke("white");
-  line(0, 60, 500, 60);
+  line(0, 60, 1000, 60);
   
   stroke("white");
-  line(0, 550, 500, 550);
+  line(0, 1450, 1000, 1450);
   
   if(touches.length > 0 || mousePressedOver(next)){
 
